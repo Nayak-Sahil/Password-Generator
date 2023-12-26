@@ -1,0 +1,14 @@
+- Vite is basically fast the react installing process.
+- in genereal, "npx creat-react-app" install lots of unnecessary thing that we don't ever try atleast as beginner. like, some testing library, react-scripts and many more thing.
+- you can compare dependencies property of both react installed package.json and vite installed package.json file.
+- most important thing is, (react without Vite) install react-scripts. therefore script tag isn't present in index.html. so, at backend react-scripts and babel will handle to inject script in html.
+- while in "react with Vite" it doesn't install react-script so that in (react+vite) in index.html script tag is present (script is normally injected as vanilla js).
+
+- To start with Vite, https://vitejs.dev/guide/
+- here, we have to install node_module after package.json file created by vite using 
+- "npm create vite@latest"
+- here every js file extension will be in ".jsx" compulsory.
+
+**** 
+"So basically, Vite provide react as complete structured and optimized way." 
+****
